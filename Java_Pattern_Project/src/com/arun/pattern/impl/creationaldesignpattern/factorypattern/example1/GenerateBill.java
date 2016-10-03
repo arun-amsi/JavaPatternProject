@@ -1,4 +1,4 @@
-package com.arun.pattern.impl.creationaldesignpattern.example1;
+package com.arun.pattern.impl.creationaldesignpattern.factorypattern.example1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

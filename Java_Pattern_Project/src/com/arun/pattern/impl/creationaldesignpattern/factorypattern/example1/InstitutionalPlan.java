@@ -1,4 +1,4 @@
-package com.arun.pattern.impl.creationaldesignpattern.example1;
+package com.arun.pattern.impl.creationaldesignpattern.factorypattern.example1;
 
 public class InstitutionalPlan extends Plan {
 

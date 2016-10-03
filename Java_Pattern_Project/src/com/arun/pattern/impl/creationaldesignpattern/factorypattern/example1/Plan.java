@@ -1,4 +1,4 @@
-package com.arun.pattern.impl.creationaldesignpattern.example1;
+package com.arun.pattern.impl.creationaldesignpattern.factorypattern.example1;
 
 public abstract class Plan {
 	protected double rate;

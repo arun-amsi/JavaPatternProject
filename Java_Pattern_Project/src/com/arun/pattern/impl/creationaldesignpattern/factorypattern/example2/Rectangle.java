@@ -1,4 +1,4 @@
-package com.arun.pattern.impl.creationaldesignpattern.example2;
+package com.arun.pattern.impl.creationaldesignpattern.factorypattern.example2;
 
 public class Rectangle implements Draw {
 
