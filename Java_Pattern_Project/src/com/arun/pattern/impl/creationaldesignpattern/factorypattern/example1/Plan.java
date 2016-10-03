@@ -1,7 +1,7 @@
 package com.arun.pattern.impl.creationaldesignpattern.factorypattern.example1;
 
 public abstract class Plan {
-	protected double rate;
+	public double rate;
 
 	abstract void getRate();
 

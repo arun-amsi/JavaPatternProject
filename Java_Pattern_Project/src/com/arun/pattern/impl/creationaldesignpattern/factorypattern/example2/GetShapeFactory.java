@@ -1,6 +1,9 @@
 package com.arun.pattern.impl.creationaldesignpattern.factorypattern.example2;
 
-public class GetShapeFactory {
+import com.arun.pattern.impl.creationaldesignpattern.abstractfactorypattern.example1.AbstractFactory;
+import com.arun.pattern.impl.creationaldesignpattern.factorypattern.example1.Plan;
+
+public class GetShapeFactory extends AbstractFactory{
 
 	public Draw getShape(String shapeType) {
 		if(null == shapeType){
@@ -12,6 +15,12 @@ public class GetShapeFactory {
 		}else if("Rectangle".equalsIgnoreCase(shapeType)){
 			return new Rectangle();
 		}
+		return null;
+	}
+
+	@Override
+	public Plan getPlan(String planType) {
+		// TODO Auto-generated method stub
 		return null;
 	}
 
