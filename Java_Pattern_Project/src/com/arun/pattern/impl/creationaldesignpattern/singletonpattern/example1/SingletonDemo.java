@@ -16,7 +16,7 @@ public class SingletonDemo {
 		   if (obj == null){  
 		      synchronized(SingleObject.class){  
 		        if (obj == null){  
-		            obj = new SingleObject();//instance will be created at request time  
+		            obj = new SingleObject(); //instance will be created at request time  
 		        }  
 		    }              
 		    }  
